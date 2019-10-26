@@ -1,145 +1,159 @@
-                                                                                                    * {
-                                                                                                    margin: 0px;
-                                                                                                    padding: 0px
-                                                                                                }
-                                                                                                
-                                                                                                body {
-                                                                                                    background-image: url("../Images/greek-vase.png");
-                                                                                                    overflow-y: scroll;
-                                                                                                }
-                                                                                                
-                                                                                                .test {
-                                                                                                    border: solid 3px black;
-                                                                                                    max-height: 110px;
-                                                                                                }
-                                                                                                
-                                                                                                .test2 {
-                                                                                                    border: solid 3px black;
-                                                                                                    max-height: 110px;
-                                                                                                }
-                                                                                                
-                                                                                                .header {
-                                                                                                    border: solid 3px black;
-                                                                                                }
-                                                                                                
-                                                                                                .brand {
-                                                                                                    background-color: #4aaaa5;
-                                                                                                    color: #ffffff;
-                                                                                                    text-align: center;
-                                                                                                    border-bottom: solid 2px lightgrey;
-                                                                                                }
-                                                                                                
-                                                                                                .navbar-nav {
-                                                                                                    /* border-bottom: solid 2px grey; */
-                                                                                                    width: 100%;
-                                                                                                }
-                                                                                                
-                                                                                                .brand a,
-                                                                                                a:hover {
-                                                                                                    color: #ffffff;
-                                                                                                    text-decoration: none;
-                                                                                                }
-                                                                                                
-                                                                                                .name-head {
-                                                                                                    font-size: 1.5em;
-                                                                                                    padding: 20px;
-                                                                                                }
-                                                                                                
-                                                                                                .rowbor {
-                                                                                                    background-color: #ffffff;
-                                                                                                }
-                                                                                                
-                                                                                                .About-box {
-                                                                                                    background-color: #ffffff;
-                                                                                                }
-                                                                                                
-                                                                                                .head-nav {
-                                                                                                    margin-bottom: 40px;
-                                                                                                    margin-left: 0px;
-                                                                                                    margin-right: 0px;
-                                                                                                    width: 100vw;
-                                                                                                    padding: 0;
-                                                                                                }
-                                                                                                
-                                                                                                footer {
-                                                                                                    background-color: #666666;
-                                                                                                    color: #ffffff;
-                                                                                                    padding-top: 20px;
-                                                                                                    padding-bottom: 20px;
-                                                                                                    text-align: center;
-                                                                                                    border-top: 8px solid #4aaaa5;
-                                                                                                    width: 100vw;
-                                                                                                }
-                                                                                                
-                                                                                                .foot {
-                                                                                                    margin-left: 0px;
-                                                                                                }
-                                                                                                
-                                                                                                .last-p {
-                                                                                                    margin-bottom: 20px;
-                                                                                                }
-                                                                                                
-                                                                                                .card-text {
-                                                                                                    margin-bottom: 40px;
-                                                                                                }
-                                                                                                
-                                                                                                h1 {
-                                                                                                    color: #4aaaa5;
-                                                                                                }
-                                                                                                /* ul a,
-                                                                                            a:hover {
-                                                                                                color: lightgrey;
-                                                                                                text-decoration: none;
-                                                                                            } */
-                                                                                                
-                                                                                                @media (max-width: 640px) {
-                                                                                                    .navbar-nav {
-                                                                                                        display: inline-block;
-                                                                                                    }
-                                                                                                    .navbar-nav>li {
-                                                                                                        display: inline-block;
-                                                                                                        padding: 10px;
-                                                                                                        margin-left: 85px;
-                                                                                                    }
-                                                                                                    .navliv {
-                                                                                                        width: 100%;
-                                                                                                    }
-                                                                                                    .rowbor {
-                                                                                                        border-bottom: solid 2px lightgrey;
-                                                                                                    }
-                                                                                                    .About-box {
-                                                                                                        padding-left: 50px;
-                                                                                                        padding-right: 50px;
-                                                                                                        margin-bottom: 100px;
-                                                                                                    }
-                                                                                                    footer {
-                                                                                                        position: fixed;
-                                                                                                        bottom: 0;
-                                                                                                        left: 0;
-                                                                                                        height: 2em;
-                                                                                                    }
-                                                                                                    #avatar {
-                                                                                                        width: 400px;
-                                                                                                        height: 400px;
-                                                                                                        margin-bottom: 20px;
-                                                                                                    }
-                                                                                                    .last-p {
-                                                                                                        max-height: 150px;
-                                                                                                        margin-bottom: 200px;
-                                                                                                    }
-                                                                                                }
-                                                                                                
-                                                                                                @media(max-width: 768) {
-                                                                                                    img {
-                                                                                                        float: left;
-                                                                                                    }
-                                                                                                    p {
-                                                                                                        float: left;
-                                                                                                    }
-                                                                                                    .navbar-nav {
-                                                                                                        width: 50%;
-                                                                                                        margin-right: 0;
-                                                                                                        margin-left: 100px;
-                                                                                                        float: right;
-                                                                                                        display: -webkit-inline-box;
-                                                                                                    }
+                                    * {
+                                    margin: 0px;
+                                    padding: 0px
+                                }
+                                
+                                body {
+                                    background-image: url("../Images/greek-vase.png");
+                                    overflow-y: scroll;
+                                }
+                                
+                                .test {
+                                    border: solid 3px black;
+                                    max-height: 110px;
+                                }
+                                
+                                .test2 {
+                                    border: solid 3px black;
+                                    max-height: 110px;
+                                }
+                                
+                                .header {
+                                    border: solid 3px black;
+                                }
+                                
+                                .brand {
+                                    background-color: #4aaaa5;
+                                    color: #ffffff;
+                                    text-align: center;
+                                    border-bottom: solid 2px lightgrey;
+                                }
+                                
+                                .navbar-nav {
+                                    /* border-bottom: solid 2px grey; */
+                                    width: 100%;
+                                }
+                                
+                                .brand a,
+                                a:hover {
+                                    color: #ffffff;
+                                    text-decoration: none;
+                                }
+                                
+                                .name-head {
+                                    font-size: 1.5em;
+                                    padding: 20px;
+                                }
+                                
+                                .rowbor {
+                                    background-color: #ffffff;
+                                }
+                                
+                                .About-box {
+                                    background-color: #ffffff;
+                                }
+                                
+                                .head-nav {
+                                    margin-bottom: 40px;
+                                    margin-left: 0px;
+                                    margin-right: 0px;
+                                    width: 100vw;
+                                    padding: 0;
+                                }
+                                
+                                footer {
+                                    background-color: #666666;
+                                    color: #ffffff;
+                                    padding-top: 20px;
+                                    padding-bottom: 20px;
+                                    text-align: center;
+                                    border-top: 8px solid #4aaaa5;
+                                    width: 100vw;
+                                }
+                                
+                                .foot {
+                                    margin-left: 0px;
+                                }
+                                
+                                .last-p {
+                                    margin-bottom: 20px;
+                                }
+                                
+                                .card-text {
+                                    margin-bottom: 40px;
+                                }
+                                
+                                h1 {
+                                    color: #ffffff;
+                                }
+                                
+                                .mainbox h1 {
+                                    color: #4aaaa5;
+                                }
+                                
+                                ul a,
+                                a:hover {
+                                    color: lightgrey;
+                                    text-decoration: none;
+                                }
+                                
+                                p {
+                                    color: lightgrey;
+                                    font-family:
+                                }
+                                
+                                @media (max-width: 640px) {
+                                    .navbar-nav {
+                                        display: inline-block;
+                                    }
+                                    .navbar-nav>li {
+                                        display: inline-block;
+                                        padding: 10px;
+                                        margin-left: 85px;
+                                    }
+                                    .navliv {
+                                        width: 100%;
+                                    }
+                                    .rowbor {
+                                        border-bottom: solid 2px lightgrey;
+                                    }
+                                    .About-box {
+                                        padding-left: 50px;
+                                        padding-right: 50px;
+                                        margin-bottom: 100px;
+                                    }
+                                    footer {
+                                        position: fixed;
+                                        bottom: 0;
+                                        left: 0;
+                                        height: 2em;
+                                    }
+                                    #avatar {
+                                        width: 400px;
+                                        height: 400px;
+                                        margin-bottom: 20px;
+                                    }
+                                    .last-p {
+                                        max-height: 150px;
+                                        margin-bottom: 200px;
+                                    }
+                                }
+                                
+                                @media(max-width: 768) {
+                                    img {
+                                        float: left;
+                                    }
+                                    p {
+                                        float: left;
+                                    }
+                                    footer {
+                                        position: fixed;
+                                        bottom: 0;
+                                    }
+                                    /* .navbar-nav {
+width: 50%;
+margin-right: 0;
+margin-left: 100px;
+float: right;
+display: -webkit-inline-box;
+} */
